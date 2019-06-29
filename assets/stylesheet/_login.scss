@@ -1,0 +1,72 @@
+.header {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.hero {
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 2 rem;
+  width: 60%;
+}
+.hero h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.hero p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+.margin-form {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #a5a2a2;
+}
+.input-holder {
+  border: none;
+  border-left: 1px solid #a5a2a2;
+  padding-left: 1rem;
+  color: #a5a2a2;
+  font-size: 1rem;
+}
+.fas,
+.far {
+  padding-right: 1rem;
+  padding-bottom: 0.7rem;
+  color: #a5a2a2;
+  font-size: 1.5rem;
+
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.lc {
+  text-align: right;
+  font-size: 0.7rem;
+  color: #a5a2a2;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.rc {
+  font-size: 0.7rem;
+  color: #a5a2a2;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+.btn-primary {
+  border: none;
+  border-radius: 2rem;
+}
+.box {
+  box-shadow: 0rem 0rem 1.5rem 0.1rem rgb(182, 181, 181);
+}
+.box h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-top: 2.5rem;
+}

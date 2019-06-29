@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--favicon-->
     <link
       rel="icon"
       href="assets/media/logo.png"
       type="image/gif/png"
       sizes="50x50"
     />
+    <!--css-->
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/026e4c53e6.js"></script>
     <title>TMR</title>
   </head>
   <body>
     <main>
+      <!--header-->
       <header class="header text-center">
         <div class="wrapper">
           <div class="text-center">
@@ -21,6 +27,80 @@
           </div>
         </div>
       </header>
+      <!--hero and sign up form-->
+      <!--hero-->
+      <section class="hero">
+        <div class="grid-col2">
+          <div class="flex-between text-center">
+            <div class="padding">
+              <h3>MANAGE YOUR TMR ACCOUNT</h3>
+              <p>
+                TMR is a catalytic technique to achieve self management in terms
+                of production, personal growth or team work. Welcome to TMR and
+                embrace the change.
+              </p>
+              <img src="assets/media/banner.png" alt="" />
+            </div>
+          </div>
+          <!--form-->
+          <div class="padding box">
+            <h3>SIGN UP HERE</h3>
+            <form action="#">
+              <div class="margin-form">
+                <span class="fas fa-user"></span>
+                <input
+                  class="input-holder"
+                  type="text"
+                  name="Name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="margin-form">
+                <span class="fas fa-phone-alt"></span>
+                <input
+                  class="input-holder"
+                  type="text"
+                  name="Phone"
+                  placeholder="Phone"
+                />
+              </div>
+              <div class="margin-form">
+                <span class="far fa-envelope"></span>
+                <input
+                  class="input-holder"
+                  type="text"
+                  name="Email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="margin-form">
+                <span class="fas fa-lock"></span>
+                <input
+                  class="input-holder"
+                  type="text"
+                  name="Password"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="flex-between act">
+                <div class="rc">
+                  <input type="checkbox" class="check" />
+                  <span class="remember">Remember-Me</span>
+                </div>
+                <div class="lc">
+                  <a href="#">Forgot Password?..</a>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-primary">SIGN UP</button>
+              </div>
+              <div class="text-center">
+                <p>Don't have an account?<a href="#">Login here</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
