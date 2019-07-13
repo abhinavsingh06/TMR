@@ -16,8 +16,10 @@
     <!--icons-->
     <script src="https://kit.fontawesome.com/026e4c53e6.js"></script>
     <title>TMR</title>
+    <!--javascript-->
+    <script src="assets/script/validator.js"></script>
   </head>
-  <body>
+  <body onload="document.form1.Email.focus()">
     <main>
       <!--header-->
       <header class="header text-center">
@@ -45,7 +47,7 @@
           <!--form-->
           <div class="padding box">
             <h3>SIGN UP HERE</h3>
-            <form action="#">
+            <form name="form1" action="#">
               <div class="margin-form">
                 <span class="fas fa-user"></span>
                 <input
@@ -59,9 +61,14 @@
                 <span class="fas fa-phone-alt"></span>
                 <input
                   class="input-holder"
-                  type="text"
+                  type="tel"
+                  id="phone"
                   name="Phone"
-                  placeholder="Phone"
+                  placeholder="(+91) 000 000 0000"
+                  autocomplete="tel"
+                  maxlength="16"
+                  pattern="[(][0-9]{3}[)] [0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
                 />
               </div>
               <div class="margin-form">
@@ -71,6 +78,7 @@
                   type="text"
                   name="Email"
                   placeholder="Email"
+                  onclick="ValidateEmail(document.form1.Email)"
                 />
               </div>
               <div class="margin-form">
